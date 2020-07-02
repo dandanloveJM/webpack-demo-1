@@ -1,5 +1,5 @@
 yarn build &&
-git branch gh-pages2
+git branch gh-pages2 &&
 git checkout gh-pages2 &&
 rm -rf *.html *.js *.css *.png &&
 mv dist/* ./ &&
